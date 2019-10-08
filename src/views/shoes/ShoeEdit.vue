@@ -80,7 +80,10 @@
                     price: this.product.price,
                     type: this.product.type
                 })
-            }
+            },
+            clear(){
+                this.$refs.form.reset();
+            },
         },
     }
 </script>
